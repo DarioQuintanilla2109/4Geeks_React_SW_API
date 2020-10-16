@@ -1,3 +1,77 @@
-/* 
-    General Styles
-*/
+@import "~bootstrap/scss/bootstrap.scss";
+body {
+    background-image: url("https://scx2.b-cdn.net/gfx/news/2018/studyofdista.jpg");
+}
+
+#myNavBar {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: rgb(65, 64, 64);
+}
+
+.myCardsContainer {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.scrollbar {
+    overflow-x: scroll;
+}
+
+.card-body{
+    background-color: rgb(65, 64, 64);
+}
+
+.navbar-brand {
+     font-family: Impact, sans-serif;
+     font-size: 32px;
+}
+
+.card-title:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.learnMore {
+    border: 2px solid blue;
+    border-radius: 5px;
+    background: rgba(119, 229, 248, 0);
+    color: yellow;
+    padding: 6px;
+}
+
+.learnMore:hover {
+    border: 2px solid blue;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+}
+
+.heart {
+    border: 2px solid yellow;
+    border-radius: 5px;
+    background: rgba(247, 238, 152, 0);
+    color: yellow;
+}
+
+.heart:hover {
+    border: 2px solid yellow;
+    border-radius: 5px;
+    background: yellow;
+    color: rgb(65, 64, 64);
+}
+
+.dropdown-toggle {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+.dropdown-toggle:hover {
+    background-color: blue;
+    color: yellow;
+    border-radius: 5px;
+}
+
+h2 {
+    color: white;
+}
